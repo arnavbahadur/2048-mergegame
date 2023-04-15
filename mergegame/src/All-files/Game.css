@@ -1,0 +1,88 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border: 6px solid red;
+    margin: 0 auto;
+    display: flex;
+    /* align-content: center; */
+    flex-wrap: wrap;
+}
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid brown;
+    font-size: medium;
+    display: flex; 
+    justify-content: center; 
+     align-items: center;
+}
+.n2{
+    background-color: #ece;
+    color: #727371;
+
+}
+.n4{
+    background-color: #ece0ca;
+    color: #727371;
+
+}
+.n8{
+    background-color: #f4b17a;
+    color: white;
+
+}
+.n16{
+    background-color: rgb(223, 245, 125);
+    color: #727371;
+
+}.n32{
+    background-color: rgb(52, 146, 17);
+    color: #727371;
+
+}.n64{
+    background-color: rgb(13, 6, 116);
+    color: #727371;
+
+}.n128{
+    background-color: rgb(20, 141, 201);
+    color: #727371;
+
+}
+.n256{
+    background-color: rgb(231, 61, 10);
+    color: #727371;
+
+}
+.n512{
+    background-color: rgb(61, 3, 61);
+    color: #727371;
+
+}
+.n1024{
+    background-color: rgb(204, 238, 224);
+    color: #727371;
+
+}
+.n2048{
+    background-color: rgb(102, 91, 4);
+    color: #727371;
+
+}
+.n4096{
+    background-color: rgb(131, 8, 75);
+    color: #727371;
+
+}
+.n8192{
+    background-color: rgb(51, 47, 51);
+    color: #727371;
+
+}
